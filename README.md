@@ -255,7 +255,7 @@ The app follows a simple layered Flutter architecture:
 We use Firestore for logged-in users so data persists after cache clear/reinstall.
 We keep local fallback for scenarios where Firebase is unavailable or user is local/offline.
 
-### 6.2 Firestore Structure
+### 6.2 Firestore Structure 
 
 - `users/{uid}`
   - `uid`, `name`, `email`, `photoUrl`, `createdAt`, `lastLoginAt`
